@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,900;1,100;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: black;
+}
+
+.wrapper {
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: black;
+  /*height: 100vh;*/
+}
+
+.navbar-home {
+  background-color: transparent;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navbar-link {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar-link a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.navbar-link a:hover {
+  border-bottom: 3px solid rgb(48, 94, 219);
+}
+
+/* ------------------------------------------- */
+
+.about-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-pic img {
+  margin-top: 50px;
+  height: 500px;
+  width: 350px;
+}
+
+.about-details {
+  margin-left: 90px;
+}
+
+.about-details h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.about-details h1 {
+  color: rgb(48, 94, 219);
+}
+
+.about-details .about-p {
+  font-size: 17px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  color: white;
+}
+
+.name-details {
+  /*display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;*/
+  padding-top: 20px;
+}
+
+.name-age {
+  display: grid;
+  color: white;
+}
+
+.name-age-1 {
+  padding-bottom: 30px;
+  font-size: 17px;
+}
+
+.cv-btn {
+  height: 30px;
+  width: 130px;
+  color: rgb(48, 94, 219);
+  background: transparent;
+  border: 2px solid rgb(48, 94, 219);
+  cursor: pointer;
+}
+
+.cv-btn:hover {
+  height: 30px;
+  width: 130px;
+  color: black;
+  background: rgb(48, 94, 219);
+  border: 2px solid rgb(48, 94, 219);
+  border-radius: 50px;
+}
+
+/* Resume Section */
+
+.about-h3 {
+  color: rgb(48, 94, 219);
+}
+
+.about-edu p {
+  color: white;
+}
+
+/* Timeline */
+
+.about-resume-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* side 1 */
+
+.about-resume h1 {
+  color: rgb(48, 94, 219);
+  text-transform: uppercase;
+}
+
+.about-resume {
+  margin: 90px auto;
+  width: 360px;
+  border-left: 2px solid #ccc;
+  padding: 0 20px 0 30px;
+}
+
+.about-education {
+  background-color: #fff;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+/* side 2 */
+
+.about-resume-1 h1 {
+  color: rgb(48, 94, 219);
+  text-transform: uppercase;
+}
+
+.about-resume-1 {
+  margin: 90px auto;
+  width: 360px;
+  border-left: 2px solid #ccc;
+  padding: 0 20px 0 30px;
+}
+
+.about-education-1 {
+  background-color: #fff;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.about-h3 {
+  padding-bottom: 20px;
+}
+
+/* Skills */
+
+.my-skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.skill-section img {
+  height: 150px;
+}
+
+.skill-section img:hover {
+  height: 100px;
+}
